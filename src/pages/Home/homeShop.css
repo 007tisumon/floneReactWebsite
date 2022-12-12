@@ -1,0 +1,7 @@
+.homeBe::before{
+    content: '';
+    position: absolute;
+    width: 5rem;
+   bottom: -13px;
+   border-bottom: 3px solid black;  
+}

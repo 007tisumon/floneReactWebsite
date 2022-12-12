@@ -1,0 +1,13 @@
+.custom-indicator {
+  bottom: -9rem;
+  display: inline-flex!important;
+  justify-content: space-between;
+ 
+}
+.custom-indicator li{
+  width: 6rem;
+  height: 8rem;
+  flex: 1;
+  justify-content: space-between;
+  
+}

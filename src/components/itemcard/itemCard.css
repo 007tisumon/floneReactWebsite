@@ -1,0 +1,6 @@
+.icons-div{
+    transform: rotateY(90deg);
+}
+.prod:hover .icons-div{
+    transform: rotateY(0deg);
+}

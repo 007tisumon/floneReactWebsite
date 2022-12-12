@@ -1,0 +1,44 @@
+/* .zindex{
+    z-index: -1;
+}
+.bp{
+    transform: translateY(-20px);
+    transition: animation .4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation: stylish 4s  infinite;
+} */
+/* 
+@keyframes stylish {
+   0%{
+    transform: translateY(-20px);
+    opacity: 0;
+   }
+   50%{
+    transform: translateY(0);
+   }
+   100%{
+    transform: translateY(0);
+   }
+    
+} */
+/* .btnAni{
+    position: relative;
+    cursor: pointer;
+    z-index: 10;
+    overflow: hidden;
+    font:bold;
+}
+.btnAni::before{
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-100%);
+    z-index: -1;
+    transition: .4s linear;
+}
+.btnAni:hover::before{
+    transform: translateX(0);
+} */

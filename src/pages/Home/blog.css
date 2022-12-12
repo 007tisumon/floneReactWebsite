@@ -1,0 +1,19 @@
+.blog-h2::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -3rem;
+    width: 2rem;
+    border-bottom: 3px solid black;
+    
+
+}
+.blog-h2::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -3rem;
+    width: 2rem;
+    border-bottom: 3px solid black;
+
+}

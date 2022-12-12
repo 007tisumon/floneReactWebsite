@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply text-4xl font-bold;
+    }
+    h2 {
+        @apply text-3xl font-bold;
+    }
+    h3 {
+        @apply text-2xl font-bold;
+    }
+    h4 {
+        @apply text-xl font-bold
+    }
+    .fc {
+        @apply flex justify-center items-center
+    }
+    .fi {
+        @apply flex items-center
+    }
+    .fs{
+        @apply flex justify-between
+    }
+    .cinput{
+        @apply w-full border py-2 pl-3 bg-transparent border-gray-400 placeholder:text-gray-500 focus:outline-none
+    }
+    .btn{
+        @apply px-7 py-3 bg-primary text-white font-medium hover:bg-gray-600 duration-300
+    }
+}
